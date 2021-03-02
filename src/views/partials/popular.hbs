@@ -1,0 +1,16 @@
+<div class="card mb-2">
+    <div class="card-header bg-dark text-white">
+        <h3 class="card-title"><i class="fas fa-fire"></i> Most Popular</h3>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            {{#each sidebar.popular}}
+                <div class="col-md-6">
+                    <a href="/images/{{uniqueId}}">
+                        <img class="w-100 h-100 img-thumbnail" src="/public/upload/{{fileName}}" alt="image">
+                    </a>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+* {
+    border-radius: 0px;
+}
+
+.navbar-brand img {
+    width: 70%;
+}
+
+body {
+    background: #000;
+}
+
+.card {
+    border-radius: 0px;
+    border: none;
+}
+div.card-header.bg-dark {
+    border-radius: 0px;
+}
